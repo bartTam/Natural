@@ -1,0 +1,25 @@
+
+
+
+Natural     =>      CPP
+&
+&&
+|
+||
+^
+!^
+~
+<
+>
+<=
+>=
+!
++
+-
+=
+*
+/
+(operator scope)
+[index]
+'string'
+\
