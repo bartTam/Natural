@@ -1,0 +1,17 @@
+
+size is a float
+
+object1 action object2
+mesh move direction.
+mesh rotate around axis1 30 degrees.
+
+angle between axis1 and axis2
+
+class mesh:
+    this rotate around axis<vec3> number<float> degrees:
+
+class vec3:
+    angle between this and other<vec3>:
+
+object1.action(object2)
+mesh.rorate(axis1, 30)
