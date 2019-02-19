@@ -19,13 +19,25 @@ mesh rotate around axis1 30 degrees. => mesh.rorate(axis1, 30)
 
 angle between axis1 and axis2
 
+Class definitions
+- class (class name) from (parent class), (parent class)... is
+    (class definition)
+
+Constructor definition
+- 
 class mesh is
-    this rotate around axis<vec3> number<float> degrees:
-    
+    this with
 
 class vec3 is
-    angle between this and other<vec3>:
+    measure angle between this and vec3 other is
+        arccos of dot product of this and other
+        arccos(this dot other)
 
+    this dot vec3 other is
+        sum(this * other)
+
+    this * vec3 other is
+        
 
 Measure angle between axis1 and axis2.
 Square that.
