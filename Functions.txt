@@ -1,0 +1,17 @@
+Functions
+=======================
+
+def range (type) to (type) step (type) is
+    return (iterable)
+
+(protection) let (return type) range (type) (to (type))? (step (type))? is
+    (body).
+
+- (protection) let (function signature) returning (type) is
+    (body).
+
+public let increment i<int> by j<int> returning int is
+    i + j.
+
+template <typename T>
+T increment(T self){ return self + 1; }

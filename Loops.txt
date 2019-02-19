@@ -1,0 +1,65 @@
+Loop Format
+=======================
+-loop (modifier(condition))? where
+    (body).
+    until (condition).
+    (body).
+
+Modifiers
+=======================
+Loop Condition Modifiers
+"until, for, each, while"
+
+Direction Modifiers
+up (<), down (>)
+
+For Loop
+=======================
+- loop for (var) (from (init value))? (direction modifier)? to (final value) (clusivity)? (, increment function)? where
+    (body).
+
+loop for i to 10 where
+    (body).
+
+loop for i from 0 to 10 where
+    (body).
+
+"for(int i = 10; i > 0; i--)"
+loop for i from 10 down to 0, decrementing where
+    (body).
+
+"for(int i = 2; i < 100; i *= i)"
+loop for i from 2 up to 100, squaring where
+    (body).
+
+"for(int i = 0; i != 100; i = randomint)"
+loop for i from 0 to 100, randomint where
+    (body).
+
+loop for i from 2 to 64 inclusive, squaring where
+    (body).
+
+For Each Loop
+=======================
+- loop each (var) in (iterable) where
+    (body).
+
+
+While Loop
+=======================
+- loop until (condition) where
+    (body).
+
+- loop while (condition) where
+    (body).
+
+- loop where        "infinite loop"
+    (body).
+
+Do While
+=======================
+- loop where
+    (body).
+    (body).
+    until (condition)
+

@@ -1,6 +1,8 @@
 Strongly typed language
-Multi paradigm: OO with functional 
+Multi paradigm: OO with functional
 Compiled (to llvm)
+Will have a main TODO
+File extension .nat
 
 Examples:
 - Syntax
@@ -14,7 +16,7 @@ parents
 friends
 
 object1 action object2 =>  object1.action(object2)
-mesh move direction.  
+mesh move direction.
 mesh rotate around axis1 30 degrees. => mesh.rorate(axis1, 30)
 
 angle between axis1 and axis2
@@ -26,7 +28,8 @@ Class definitions
 Constructor definition
 - 
 class mesh is
-    this with
+    this rotate around axis<vec3> number<float> degrees
+
 
 class vec3 is
     measure angle between this and vec3 other is
@@ -41,3 +44,4 @@ class vec3 is
 
 Measure angle between axis1 and axis2.
 Square that.
+Double, round up that.
