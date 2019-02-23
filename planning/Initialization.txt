@@ -1,0 +1,29 @@
+Initialization
+=======================
+- (type) (var) is (value).
+
+float pointA is 10.
+
+Initialization Collections
+=======================
+- (collection type) of (type) (var) has (object type),...
+
+list of int points1 has pointA, 11.
+array of float points2 with size is 10.      "Declare of set size and uninitialized"
+array of float points3 with
+    size is 10,
+    initializer is 0.
+
+Object Initialization
+=======================
+- (object type) (var).                       "No args"
+- (object type) (var) with (value), (value). "Positional args"
+- (object type) (var) with                   "Keyword args"
+    (keyword) is (value),
+    (keyword) is (value).
+
+graph g.
+coordinate p with 10, 20.
+coordinate p with
+    x is 10,
+    y is 20.

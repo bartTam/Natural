@@ -1,0 +1,47 @@
+Strongly typed language
+Multi paradigm: OO with functional
+Compiled (to llvm)
+Will have a main TODO
+File extension .nat
+
+Examples:
+- Syntax
+Natural => CPP
+
+Floating string is comment ("").
+
+
+polymorphism
+parents
+friends
+
+object1 action object2 =>  object1.action(object2)
+mesh move direction.
+mesh rotate around axis1 30 degrees. => mesh.rorate(axis1, 30)
+
+angle between axis1 and axis2
+
+Class definitions
+- class (class name) from (parent class), (parent class)... is
+    (class definition)
+
+Constructor definition
+- 
+class mesh is
+    this rotate around axis<vec3> number<float> degrees
+
+
+class vec3 is
+    measure angle between this and vec3 other is
+        arccos of dot product of this and other
+        arccos(this dot other)
+
+    this dot vec3 other is
+        sum(this * other)
+
+    this * vec3 other is
+        
+
+Measure angle between axis1 and axis2.
+Square that.
+Double, round up that.
