@@ -5,6 +5,11 @@ Loop Format
     until (condition).
     (body).
 
+if the word loop is left out, it  creates an iterable
+where each item is either:
+	constant
+	expression from a var defined in "from"
+	
 Modifiers
 =======================
 Loop Condition Modifiers

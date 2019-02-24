@@ -1,0 +1,12 @@
+Functional Programming
+=======================
+
+
+
+Example Expressions
+=======================
+"mapping a lambda"
+"expression for squaring a value using generator"
+square i for i in int from 1 to base
+
+

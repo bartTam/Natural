@@ -1,0 +1,9 @@
+Generators
+=======================
+
+"take a value and repeat it"
+- (var) repeated ((var) times)?
+
+"from 0 by default"
+- (type name) (from (var))? to (var)
+

@@ -1,17 +1,39 @@
 Functions
 =======================
 
-def range (type) to (type) step (type) is
-    return (iterable)
-
-(protection) let (return type) range (type) (to (type))? (step (type))? is
-    (body).
-
-- (protection) let (function signature) returning (type) is
-    (body).
-
-public let increment i<int> by j<int> returning int is
+increment i<int> by j<int> returning int is
     i + j.
 
-template <typename T>
-T increment(T self){ return self + 1; }
+
+finish -> "immediately exit method"
+yield  -> "the value returned from the function"
+
+"can return iterables, or
+for normal fns, save a temp
+variable of what is being yielded,
+and return it at the end"
+
+implicitly: "yield then finish"
+
+
+Examples
+=======================
+
+increment i<int> by j<int> is
+    i + j.
+	
+"regular function returning output at last line"
+raise base<int> to the exponent<int> is
+	int output is base.
+	loop for i up to exponent where
+		output *= base.
+
+""		
+raise base<int> to the exponent<int> is
+	product of base repeated exponent times
+
+base<int> factorial is
+	product of int from 1 to base
+	
+start<int> down to stop<int> is
+	"body".
