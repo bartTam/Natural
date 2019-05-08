@@ -1,0 +1,73 @@
+
+"----------LOOPS----------"
+
+"For Each Loop"
+loop each var in [1, 2, 3, 4] where
+    pass.
+
+"While loop"
+loop until (condition) where
+    pass.
+loop while (condition) where
+    pass.
+loop where true
+    pass.
+
+"Do While"
+loop where
+    pass.
+    pass.
+until (condition).
+
+"----------FUNCTIONS----------"
+
+increment i by j is
+  i + j.
+
+"regular function returning output at last line"
+raise base(int) to the exponent(int) is
+    int output is base.
+    loop for i up to exponent where
+        output *= base.
+
+raise base to the exponent is
+    product of base repeated exponent times.
+
+base factorial is
+    product of int from 1 to base.
+
+start down to stop is
+    pass.
+
+"----------INITIALIZATION----------"
+
+int p is raise 4 to the 10.
+
+list of int points1 has pointA, 11.
+
+"Declare of set size and uninitialized"
+array of float points2 with size is 10.
+array of float points3 with
+    size is 10,
+    initializer is 0.
+
+graph g.
+coordinate p with 10, 20.
+coordinate p with
+    x is 10,
+    y is 20.
+
+"----------Objects----------"
+
+object vec3 from a is
+    this is (arg0, arg1, ...)
+
+    measure angle between this and vec3 other is
+        arccos of dot product of this and other
+        arccos(this dot other).
+
+    this dot vec3 other is
+        sum(this * other).
+
+    this * vec3 other is
+        (body).
