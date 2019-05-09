@@ -1,0 +1,25 @@
+{
+    "name": "natural-language",
+    "displayName": "Natural-Language",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nat",
+            "aliases": ["Natural", "nat"],
+            "extensions": [".nat"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nat",
+            "scopeName": "source.natural",
+            "path": "./syntaxes/nat.tmLanguage.json"
+        }]
+    }
+}
