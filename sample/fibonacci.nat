@@ -1,0 +1,9 @@
+
+"This is an example of the fibonacci sequence calculated in Natural!"
+fibonacci at n(int) is
+    if n is less than or equal to 1
+        1
+    "Implicit return statements!"
+    (fibonacci at n - 1) + (fibonacci at n - 2)
+
+

@@ -7,7 +7,7 @@
 			"patterns": [
 				{
 					"comment": "Control Flow",
-					"match": "\\b(if|else|while|for|return|break|loop|where|until|each)\\b",
+					"match": "\\b(if|else|while|for|return|break|loop|where|until|each|named)\\b",
 					"name": "keyword.control.nat"
 				},
 				{
@@ -19,8 +19,8 @@
 		},
 		"strings": {
 			"name": "string.quoted.double.nat",
-			"begin": "\"",
-			"end": "\"",
+			"begin": "\"|'",
+			"end": "\"|'",
 			"patterns": [
 				{
 					"name": "constant.character.escape.nat",
@@ -41,7 +41,7 @@
 		},
 		{
 			"comment": "Numeric Constants",
-			"match": "\\b(\\d)+(\\.\\d)*",
+			"match": "\\b(\\d)+(\\.\\d+)?",
 			"name": "constant.numeric.nat"
 		},
 		{
@@ -51,7 +51,7 @@
 		},
 		{
 			"comment": "Basic Types",
-			"match": "\\b(ref|const|int|float|bool)\\b",
+			"match": "\\b(ref|const|int|float|bool|string)\\b",
 			"name": "storage.type.numeric.nat"
 		},
 		{
@@ -66,7 +66,7 @@
 		},
 		{
 			"comment": "Operators",
-			"match": "\\b(and|or|not|equals|less\\sthan|greater\\sthan)\\b",
+			"match": "\\b(and|or|not|equals?|less\\sthan|greater\\sthan)\\b",
 			"name": "keyword.other.nat"
 		},
 		{

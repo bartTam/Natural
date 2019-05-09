@@ -1,0 +1,11 @@
+
+string word is "Does this string contain a \n newline?".
+
+"A variable becoming the condition with which a loop finishes."
+bool contains_newline is
+    "Named loops!"
+    loop each word in words named outer where
+        loop each character in word named inner where
+            if character equals '\n'
+                break outer
+

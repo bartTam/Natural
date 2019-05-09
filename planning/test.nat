@@ -30,10 +30,10 @@ raise base(int) to the exponent(int) is
     loop for i up to exponent where
         output *= base.
 
-raise base to the exponent is
+raise base(int) to the exponent(int) is
     product of base repeated exponent times.
 
-base factorial is
+base(int) factorial is
     product of int from 1 to base.
 
 start down to stop is
