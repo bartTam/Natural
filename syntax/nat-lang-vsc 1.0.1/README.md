@@ -2,14 +2,6 @@
 
 Support Visual Studio Code syntax highlighting for Natural.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 
 Base support for highlighting Natural language code.
