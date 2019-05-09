@@ -29,7 +29,7 @@ filenameToName = join extSep . init . splitOn extSep
 extSep = "."
 
 getFileContents :: IO String
-getFileContents = readFile <*> getFilename
+getFileContents = getFilename >>= readFile
 {-getFileContents = do
   filename <- getFilename
   readFile filename-}
