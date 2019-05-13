@@ -7,3 +7,33 @@ fibonacci at n(int) is
     (fibonacci at n - 1) + (fibonacci at n - 2)
 
 
+int fibonacci ( int n "",
+                string a "",
+                bool b "",
+              )
+{
+    if n <= 1
+        return 1
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+void main:
+    [string, d=2, linked] argv "u kno what this is"
+    [string, d=2, linked] argv "u kno what this is"
+    doublely_linked_list (string 2 "calm down") a = [1, 2, 3]
+    list(string) a = [];
+{
+    f = fibonacci (b=4);
+}
+
+int fibonacci:
+    int d "d in dab"
+    string a "a in dab"
+    int b "b in dab"
+{
+    if n <= 1
+        return 1;
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2);
+}
